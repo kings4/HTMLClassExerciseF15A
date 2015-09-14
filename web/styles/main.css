@@ -1,0 +1,101 @@
+html{
+    background: url("../images/bats.gif") repeat;
+}
+body{
+    font-family: sans-serif,
+        "Times New Roman", Helvetica, Arial;
+  
+}
+section{
+    float: left;
+    width: 160px;
+    position: absolute;
+    top: 150px;
+}
+h1{font-size: 2em;
+  /*font-style: italic;
+    color: orange;
+    text-shadow: 2px 2px #ff0000;*/
+    }
+h2{font-size: 1.6em;}
+h3{font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h4{font-size: 1.5em;}
+p{font-size: 1em;}
+  h2::first-letter{
+    font-size: 200%;
+}
+a:link{
+    color: orange;
+    font-weight: bold;
+}
+a:visited{
+    color: orange;
+    font-weight: bold;
+}
+a:hover{
+    color: green;
+    font-weight: bold;
+}
+footer{
+    font-size: .6em;
+    text-align: center;
+    clear: both;
+}
+
+#Pumpkin{
+    float: left;
+    margin: 0 0 10px 5px;
+}
+
+#Cat{
+    position: relative;
+    top: 275px;
+    left: 150px;
+}
+
+#Kitty{
+    position: relative;
+    top: 275px;
+    left: 150px;
+}
+
+body{
+    margin: 0 auto;
+    width: 800px;
+    background-image: url("bats.gif");
+    background-color: white;
+    border: 1px black solid;
+    background-position: center;
+    -webkit-box-shadow: 10px 10px 151px 24px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 151px 24px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 151px 24px rgba(0,0,0,0.75);
+    
+}
+
+header{
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    background: -webkit-linear-gradient(left, white, orange, black); /* For Safari 5.1 to 6.0 */
+     background: -o-linear-gradient(right, white, orange, black); /* For Opera 11.1 to 12.0 */
+     background: -moz-linear-gradient(right, white, orange, black); /* For Firefox 3.6 to 15 */
+     background: linear-gradient(to right, white, orange, black); /* Standard syntax */
+}
+
+footer{
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    background: -webkit-linear-gradient(right, white, orange, black); /* For Safari 5.1 to 6.0 */
+     background: -o-linear-gradient(left, white, orange, black); /* For Opera 11.1 to 12.0 */
+     background: -moz-linear-gradient(left, white, orange, black); /* For Firefox 3.6 to 15 */
+     background: linear-gradient(to left, white, orange, black); /* Standard syntax */
+}
+
+h2,h3,p{
+    float:right;
+    width:650px;
+}
